@@ -1,0 +1,52 @@
+body{
+    background-image:url(./img/forrest.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 10;
+    padding:0;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+
+header{
+    background: grey;
+    opacity:.5;
+    display:flex;
+    width:auto;
+    position: sticky;
+}
+
+#welcome{
+    font-size:10px;
+    font-style:italic;
+    padding:5px 15px;
+}
+
+nav{
+    margin-left:auto;
+    padding:5px 15px;
+}
+
+li{
+    display:inline;
+    padding:5px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+/* showcase */
+
+#showcase{
+    text-align:center;
+    padding:10px;
+}
+
+h2{
+    font-family: cursive;
+    font-size:50px;
+}
